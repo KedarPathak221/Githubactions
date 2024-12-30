@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class GithubActionsApplication {
-	
+
 	@GetMapping("/message")
 	public String getMessage()
 	{
